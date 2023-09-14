@@ -78,3 +78,16 @@ ul {
   padding: var(--gap);
   gap: var(--gap);
 }
+
+/* resumo */
+
+.resumo {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.resumo h2 {
+  font-size: 1.5rem;
+  margin-bottom: var(--gap);
+  color: var(--color-1);
+}
