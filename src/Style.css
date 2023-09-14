@@ -91,3 +91,21 @@ ul {
   margin-bottom: var(--gap);
   color: var(--color-1);
 }
+
+/* venda */
+
+.venda {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  gap: var(--gap);
+  margin-bottom: var(--gap-s);
+  align-items: center;
+}
+
+.venda div:last-child {
+  justify-self: end;
+}
+
+.venda a {
+  color: inherit;
+}
